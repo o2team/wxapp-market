@@ -20,3 +20,4 @@ jsdoc.conf.json
 test.js
 package.json
 out/
+CHANGELOG.md

@@ -19,7 +19,7 @@
 ### 1.拉取仓库
 
 ```
-git clone git@github.com:pfan123/wx-market.git
+git clone git@github.com:o2team/wx-market.git
 ```
 
 ### 2.查看组件文件
