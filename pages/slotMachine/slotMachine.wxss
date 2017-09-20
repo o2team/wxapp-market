@@ -1,0 +1,25 @@
+@import '../../components/slotMachine/slotMachine.wxss'
+
+.index-hd {
+  padding: 80rpx;
+  text-align: center;
+  padding: 20rpx 26rpx 40rpx;
+}
+
+.index-desc {
+  margin-top: 20rpx;
+  color: #888888;
+  font-size: 28rpx;
+}
+
+.index-tip{
+  color: #888;
+  font-size: 28rpx;
+  text-align: center;
+  margin: 20rpx 0;
+}
+
+button{
+  margin-top: 40rpx;
+  width: 400rpx;
+}

@@ -1,0 +1,40 @@
+<template name="fruitMachine" >
+  <view class="marquee_wp">
+    <view class="marquee_item {{idx == 1 ? 'on' : ''}}" >
+      <image src = "/assets/marquee_lottery1.png"/>
+    </view>
+
+    <view class="marquee_item {{idx == 2 ? 'on' : ''}}">
+      <image src = "/assets/marquee_lottery2.png"/>
+    </view>
+
+    <view class="marquee_item {{idx == 3 ? 'on' : ''}}" >
+      <image src = "/assets/marquee_lottery3.png"/>
+    </view>
+
+    <view class="marquee_item {{idx == 8 ? 'on' : ''}}" >
+      <image src = "/assets/marquee_lottery2.png"/>
+    </view>
+
+    <view class="marquee_item marquee_item_btn" bindtap = "start">
+      <image src = "/assets/marquee_btn.png"/>
+    </view> 
+
+    <view class="marquee_item {{idx == 4 ? 'on' : ''}}" >
+      <image src = "/assets/marquee_lottery3.png"/>
+    </view>
+
+    <view class="marquee_item {{idx == 7 ? 'on' : ''}}" >
+      <image src = "/assets/marquee_lottery1.png"/>
+    </view>
+
+    <view class="marquee_item {{idx == 6 ? 'on' : ''}}" >
+      <image src = "/assets/marquee_lottery2.png"/>
+    </view>
+
+    <view class="marquee_item {{idx == 5 ? 'on' : ''}}" >
+      <image src = "/assets/marquee_lottery1.png"/>
+    </view>   
+               
+  </view>
+</template> 

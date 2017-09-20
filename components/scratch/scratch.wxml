@@ -1,0 +1,6 @@
+<template name="scratch" >
+	<view class="scratch_wp" style="position:relative;width: {{scratch.width}}px; height: {{scratch.height}}px;margin: 0 auto;" >
+		<canvas style="margin: 0 auto;width: {{scratch.width}}px; height: {{scratch.height}}px; background: transparent" canvas-id="scratch" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" disable-scroll ="{{isScroll}}"></canvas>
+		<view class="scratch_txt" style="position:absolute;top:0;left:0;width: 100%;height:100%;text-align: center;line-height: {{scratch.awardTxtLineHeight}}px;color: {{scratch.awardTxtColor}};font-size: {{scratch.awardTxtFontSize}};pointer-events:none;z-index: -1">{{scratch.awardTxt}}</view>
+	</view>
+</template> 

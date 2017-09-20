@@ -1,0 +1,45 @@
+@import '../../components/wheel/wheel.wxss'
+.index-hd {
+  padding: 80rpx;
+  text-align: center;
+  padding: 20rpx 26rpx 40rpx;
+}
+
+.index-desc {
+  margin-top: 20rpx;
+  color: #888;
+  font-size: 28rpx;
+}
+
+.index-tip{
+  color: #888;
+  font-size: 28rpx;
+  text-align: center;
+  margin: 20rpx 0;
+}
+.index-mod{
+  margin: 30rpx 80rpx 60rpx 60rpx;
+  color: #888;
+}
+.index-mod text{
+  display: inline-block;
+  line-height: 20px;
+}
+.index-mod-btn{
+  display: inline-block;
+  flex: 1;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #666;
+  border-radius: 6rpx;
+  font-size: 12px;
+  padding: 0 20rpx;
+}
+.index-mod-btn.on{
+  color: #3985ff;
+  border: 1px solid #3985ff;
+}
+.index-mod-btn:last-child{
+  margin-left: 20rpx;
+}

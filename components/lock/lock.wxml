@@ -1,0 +1,8 @@
+<template name="lock" >
+	<view class="lock_wp">
+	    <view class="lock_title" style="color: {{color}}">{{title}}</view>
+	    <canvas canvas-id="canvasLock" class="canvasLock" bindtouchend="onTouchend"
+	      bindtouchstart="onTouchstart" bindtouchmove="onTouchmove" bindtouchcancel = "onTouchcancel" style="width:{{canvasWidth}}px;height:{{canvasHeight}}px" disable-scroll ="true"></canvas>
+	    <button class="lock_reset" bindtap="updatePassword">重置密码</button>
+	</view>
+</template> 

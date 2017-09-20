@@ -1,0 +1,122 @@
+/**
+ * perspective： 400px属性，焦距影响其子元素，会影响整个子元素大空间，perspective(400px) 影响元素本身
+ */
+.gridcard{
+  margin: 0 20rpx;
+  position: relative;
+  height: 710rpx;
+}
+/*perspective: 400px;*/
+.gridcard .gridcard_item{
+  position: absolute;
+  width: 230rpx;
+  height: 230rpx;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+/*    -webkit-transform: translate3d(240rpx, 102rpx, 0);
+    transform: translate3d(240rpx, 102rpx, 0);*/
+.gridcard .gridcard_item image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.gridcard .gridcard_item .gridcard_front,.gridcard .gridcard_item .gridcard_back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 230rpx;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 1;
+}
+.gridcard .gridcard_item .gridcard_back{
+  -webkit-transform: rotateY(180deg) translateZ(0);
+  transform: rotateY(180deg) translateZ(0);
+  background: #1E9FD9;
+}
+.gridcard .gridcard_item.back{
+  -webkit-transform: perspective(1000px) rotateY(-180deg) translateZ(0);
+  transform: perspective(1000px) rotateY(-180deg) translateZ(0);
+}
+.gridcard .gridcard_item.move{
+  z-index: 3;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+.gridcard .gridcard_item:nth-child(1){
+  top: 0;
+  left: 0;
+}
+.gridcard .gridcard_item:nth-child(1).move{
+  -webkit-transform: translate3d(240rpx,240rpx,0);
+  transform: translate3d(240rpx,240rpx,0);
+}
+.gridcard .gridcard_item:nth-child(2){
+  top: 0;
+  left: 240rpx;
+}
+.gridcard .gridcard_item:nth-child(2).move{
+  -webkit-transform: translate3d(0,240rpx,0);
+  transform: translate3d(0,240rpx,0);
+}
+.gridcard .gridcard_item:nth-child(3){
+  top: 0;
+  left: 480rpx;
+}
+.gridcard .gridcard_item:nth-child(3).move{
+  -webkit-transform: translate3d(-240rpx,240rpx,0);
+  transform: translate3d(-240rpx,240rpx,0);
+}
+.gridcard .gridcard_item:nth-child(4){
+  top: 240rpx;
+  left: 0;
+}
+.gridcard .gridcard_item:nth-child(4).move{
+  -webkit-transform: translate3d(240rpx,0,0);
+  transform: translate3d(240rpx,0,0);
+}
+.gridcard .gridcard_item:nth-child(5){
+  top: 240rpx;
+  left: 240rpx;
+}
+.gridcard .gridcard_item:nth-child(6){
+  top: 240rpx;
+  left: 480rpx;
+}
+.gridcard .gridcard_item:nth-child(6).move{
+  -webkit-transform: translate3d(-240rpx,0rpx,0);
+  transform: translate3d(-240rpx,0rpx,0);
+}
+.gridcard .gridcard_item:nth-child(7){
+  top: 480rpx;
+  left: 0;
+}
+.gridcard .gridcard_item:nth-child(7).move{
+  -webkit-transform: translate3d(240rpx,-240rpx,0);
+  transform: translate3d(240rpx,-240rpx,0);
+}
+.gridcard .gridcard_item:nth-child(8){
+  top: 480rpx;
+  left: 240rpx;
+}
+.gridcard .gridcard_item:nth-child(8).move{
+  -webkit-transform: translate3d(0,-240rpx,0);
+  transform: translate3d(0,-240rpx,0);
+}
+.gridcard .gridcard_item:nth-child(9){
+  top: 480rpx;
+  left: 480rpx;
+}
+.gridcard .gridcard_item:nth-child(9).move{
+  -webkit-transform: translate3d(-240rpx,-240rpx,0);
+  transform: translate3d(-240rpx,-240rpx,0);
+}
+

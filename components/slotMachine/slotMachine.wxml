@@ -1,0 +1,67 @@
+<template name="slotMachine" >
+  <view class="machine_wp">
+      <view class="machine_item_wp">
+        <view class="machine_item_slide" style="transform: translateY({{transY1}}px);-webkit-transform: translateY({{transY1}}px)">
+          <view class="machine_item_ele">0</view>
+          <view class="machine_item_ele">1</view>
+          <view class="machine_item_ele">2</view>
+          <view class="machine_item_ele">3</view>
+          <view class="machine_item_ele">4</view>
+          <view class="machine_item_ele">5</view>
+          <view class="machine_item_ele">6</view>
+          <view class="machine_item_ele">7</view>
+          <view class="machine_item_ele">8</view>
+          <view class="machine_item_ele">9</view>
+          <view class="machine_item_ele">0</view>
+        </view>
+      </view>
+
+      <view class="machine_item_wp">
+        <view class="machine_item_slide" style="transform: translateY({{transY2}}px);-webkit-transform: translateY({{transY2}}px)">
+          <view class="machine_item_ele">0</view>
+          <view class="machine_item_ele">1</view>
+          <view class="machine_item_ele">2</view>
+          <view class="machine_item_ele">3</view>
+          <view class="machine_item_ele">4</view>
+          <view class="machine_item_ele">5</view>
+          <view class="machine_item_ele">6</view>
+          <view class="machine_item_ele">7</view>
+          <view class="machine_item_ele">8</view>
+          <view class="machine_item_ele">9</view>
+          <view class="machine_item_ele">0</view>
+        </view>
+      </view>
+
+      <view class="machine_item_wp">
+        <view class="machine_item_slide" style="transform: translateY({{transY3}}px);-webkit-transform: translateY({{transY3}}px)">
+          <view class="machine_item_ele">0</view>
+          <view class="machine_item_ele">1</view>
+          <view class="machine_item_ele">2</view>
+          <view class="machine_item_ele">3</view>
+          <view class="machine_item_ele">4</view>
+          <view class="machine_item_ele">5</view>
+          <view class="machine_item_ele">6</view>
+          <view class="machine_item_ele">7</view>
+          <view class="machine_item_ele">8</view>
+          <view class="machine_item_ele">9</view>
+          <view class="machine_item_ele">0</view>
+        </view>
+      </view>       
+      
+      <view class="machine_item_wp">
+        <view class="machine_item_slide" style="transform: translateY({{transY4}}px);-webkit-transform: translateY({{transY4}}px)">
+          <view class="machine_item_ele">0</view>
+          <view class="machine_item_ele">1</view>
+          <view class="machine_item_ele">2</view>
+          <view class="machine_item_ele">3</view>
+          <view class="machine_item_ele">4</view>
+          <view class="machine_item_ele">5</view>
+          <view class="machine_item_ele">6</view>
+          <view class="machine_item_ele">7</view>
+          <view class="machine_item_ele">8</view>
+          <view class="machine_item_ele">9</view>
+          <view class="machine_item_ele">0</view>
+        </view>
+      </view>                
+  </view>
+</template> 

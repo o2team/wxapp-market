@@ -1,0 +1,14 @@
+<template name ="card">
+  <view class="gridcard">
+    <block wx:for = "{{card}}" wx:for-item = "item" wx:for-index="idx">
+      <view class="gridcard_item {{item.isBack ? 'back' : ''}} {{item.isMove ? 'move' : ''}}" bindtap = "onClick" data-idx="{{idx}}" data-award="{{item.award}}">
+        <div class="gridcard_front">
+        	<image src = "/assets/card_front.png"/>
+        </div>
+        <div class="gridcard_back">
+        	<image src = "/assets/marquee_lottery1.png"/>
+        </div>
+      </view>      
+    </block>             
+  </view>
+</template>
