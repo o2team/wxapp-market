@@ -227,3 +227,8 @@ git clone git@github.com:o2team/wx-market.git
 ## 开源协议
 
 本项目基于 [MIT](https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89) 协议，请自由地享受和参与开源。
+
+
+## 贡献
+
+如果你有好的意见或建议，欢迎给我们提 [issue](https://github.com/o2team/wx-market/issues) 或 [PR](https://github.com/o2team/wx-market/compare)，为优化 [wx-market](https://github.com/o2team/wx-market) 贡献力量
