@@ -1,6 +1,6 @@
 ## 小程序营销组件
 
-小程序营销组件， WeChat marketing components
+小程序营销组件， Marketing components for WeChatApp。
 
 
 ## 支持营销玩法
@@ -24,23 +24,23 @@ git clone git@github.com:o2team/wx-market.git
 
 ### 2.查看组件文件
 
-- 大转盘（Big wheel）: `/components/wheel/`
+- 大转盘 (Big wheel) : `/components/wheel/`
 - 刮刮乐 (Scratch tickets) : `/components/scratch/`
-- 老虎机 （Slot machine） : `/components/slotMachine/`
-- 水果机 （Fruit machine）: `/components/fruitMachine/`
-- 九宫格翻纸牌 (Grid card): `/components/card/`
-- 摇一摇 (Shake): `/components/shake/`
-- 手势解锁 (Gesture lock): `/components/lock/`
+- 老虎机 (Slot machine) : `/components/slotMachine/`
+- 水果机 (Fruit machine) : `/components/fruitMachine/`
+- 九宫格翻纸牌 (Grid card) : `/components/card/`
+- 摇一摇 (Shake) : `/components/shake/`
+- 手势解锁 (Gesture lock) : `/components/lock/`
 
 ### 3.使用引入方式
 
 #### ➀ 使用大转盘组件
 
-- WXSS中引用样式：`@import '../../components/wheel/wheel.wxss'`
+- WXSS中引用样式：`@import "../../components/wheel/wheel.wxss"`
 
 - WXML中引用结构：`<import src="../../components/wheel/wheel.wxml"/>`
 
-- JS中引用：`import Wheel from '../../components/wheel/wheel.js'`
+- JS中引用：`import Wheel from "../../components/wheel/wheel.js"`
 
 - JS中实例调用：
 
@@ -62,7 +62,7 @@ git clone git@github.com:o2team/wx-market.git
 
 - WXML中引用结构：`<import src="../../components/scratch/scratch.wxml"/>`
 
-- JS中引用：`import Scratch from '../../components/scratch/scratch.js'`
+- JS中引用：`import Scratch from "../../components/scratch/scratch.js"`
 
 - JS中实例调用：
 
@@ -70,7 +70,7 @@ git clone git@github.com:o2team/wx-market.git
   new Scratch(this,{
     canvasWidth: 197,   //画布宽带
     canvasHeight: 72,  //画布高度
-    imageResource: './images/placeholder.png', //遮罩层图片
+    imageResource: "./images/placeholder.png", //遮罩层图片
     r: 4, //笔触半径
     awardTxt: '中大奖', //底部抽奖文字奖项
     awardTxtColor: "#1AAD16", //底部抽奖文字颜色
@@ -82,16 +82,16 @@ git clone git@github.com:o2team/wx-market.git
   })
 ```
 
-> 注意：小程序无 globalCompositeOperation = 'destination-out'属性，所以采用 `clearRect` 做擦除处理
+> 注意：小程序无 globalCompositeOperation = "destination-out"属性，所以采用 `clearRect` 做擦除处理
 
 
 ### ➂ 使用老虎机组件
 
-- WXSS中引用样式：`@import '../../components/slotMachine/slotMachine.wxss'`
+- WXSS中引用样式：`@import "../../components/slotMachine/slotMachine.wxss"`
 
 - WXML中引用结构：`<import src="../../components/slotMachine/slotMachine.wxml"/>`
 
-- JS中引用：`import SlotMachine from '../../components/slotMachine/slotMachine.js'`
+- JS中引用：`import SlotMachine from "../../components/slotMachine/slotMachine.js"`
 
 - JS中实例调用：
 
@@ -116,11 +116,11 @@ git clone git@github.com:o2team/wx-market.git
 
 #### ➃ 使用水果机组件
 
-- WXSS中引用样式：`@import '../../components/fruitMachine/fruitMachine.wxss'`
+- WXSS中引用样式：`@import "../../components/fruitMachine/fruitMachine.wxss"`
 
 - WXML中引用结构：`<import src="../../components/fruitMachine/fruitMachine.wxml"/>`
 
-- JS中引用：`import FruitMachine from '../../components/fruitMachine/fruitMachine.js'`
+- JS中引用：`import FruitMachine from "../../components/fruitMachine/fruitMachine.js"`
 
 - JS中实例调用：
 
@@ -137,11 +137,11 @@ git clone git@github.com:o2team/wx-market.git
 
 #### ➄ 使用九宫格翻纸牌组件
 
-- WXSS中引用样式：`@import '../../components/card/card.wxss'`
+- WXSS中引用样式：`@import "../../components/card/card.wxss"`
 
 - WXML中引用结构：`<import src="../../components/card/card.wxml"/>`
 
-- JS中引用：`import Card from '../../components/card/card.js'`
+- JS中引用：`import Card from "../../components/card/card.js"`
 
 - JS中实例调用：
 
@@ -166,11 +166,11 @@ git clone git@github.com:o2team/wx-market.git
 
 #### ➅ 使用摇一摇组件
 
-- WXSS中引用样式：`@import '../../components/shake/shake.wxss'`
+- WXSS中引用样式：`@import "../../components/shake/shake.wxss"`
 
 - WXML中引用结构：`<import src="../../components/shake/shake.wxml"/>`
 
-- JS中引用：`import Shake from '../../components/shake/shake.js'`
+- JS中引用：`import Shake from "../../components/shake/shake.js"`
 
 - JS中实例调用：
 
@@ -185,11 +185,11 @@ git clone git@github.com:o2team/wx-market.git
 
 #### ➆ 使用手势解锁组件
 
- - WXSS中引用样式：`@import '../../components/lock/lock.wxss'`
+ - WXSS中引用样式：`@import "../../components/lock/lock.wxss"`
 
 - WXML中引用结构：`<import src="../../components/lock/lock.wxml"/>`
 
-- JS中引用：`import Lock from '../../components/lock/lock.js'`
+- JS中引用：`import Lock from "../../components/lock/lock.js"`
 
 - JS中实例调用：
 
@@ -197,8 +197,8 @@ git clone git@github.com:o2team/wx-market.git
   new Lock(this,{
     canvasWidth: 300,   //canvas画布宽度 px
     canvasHeight: 300,  //canvas画布高度 px 
-    canvasId: 'canvasLock', //canvas画布id
-    drawColor: '#3985ff'  //绘制颜色
+    canvasId: "canvasLock", //canvas画布id
+    drawColor: "#3985ff"  //绘制颜色
   })
 ```   
 
