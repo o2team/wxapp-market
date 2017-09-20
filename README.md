@@ -56,8 +56,6 @@ git clone git@github.com:o2team/wxapp-market.git
   })
 ```
 
-
-
 #### ➁ 使用刮刮乐组件
 
 - WXML中引用结构：`<import src="../../components/scratch/scratch.wxml"/>`
@@ -85,7 +83,7 @@ git clone git@github.com:o2team/wxapp-market.git
 > 注意：小程序无 globalCompositeOperation = "destination-out" 属性，所以采用 `clearRect` 做擦除处理
 
 
-### ➂ 使用老虎机组件
+#### ➂ 使用老虎机组件
 
 - WXSS中引用样式：`@import "../../components/slotMachine/slotMachine.wxss"`
 
