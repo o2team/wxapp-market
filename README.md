@@ -19,7 +19,7 @@
 ### 1.拉取仓库
 
 ```
-git clone git@github.com:o2team/wx-market.git
+git clone git@github.com:o2team/wxapp-market.git
 ```
 
 ### 2.查看组件文件
@@ -231,4 +231,4 @@ git clone git@github.com:o2team/wx-market.git
 
 ## 贡献
 
-如果你有好的意见或建议，欢迎给我们提 [issue](https://github.com/o2team/wx-market/issues) 或 [PR](https://github.com/o2team/wx-market/compare)，为优化 [wx-market](https://github.com/o2team/wx-market) 贡献力量。
+如果你有好的意见或建议，欢迎给我们提 [issue](https://github.com/o2team/wxapp-market/issues) 或 [PR](https://github.com/o2team/wxapp-market/compare)，为优化 [wxapp-market](https://github.com/o2team/wxapp-market) 贡献力量。
