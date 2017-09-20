@@ -82,7 +82,7 @@ git clone git@github.com:o2team/wxapp-market.git
   })
 ```
 
-> 注意：小程序无 globalCompositeOperation = "destination-out"属性，所以采用 `clearRect` 做擦除处理
+> 注意：小程序无 globalCompositeOperation = "destination-out" 属性，所以采用 `clearRect` 做擦除处理
 
 
 ### ➂ 使用老虎机组件
@@ -230,4 +230,4 @@ git clone git@github.com:o2team/wxapp-market.git
 
 ## 贡献
 
-如果你有好的意见或建议，欢迎给我们提 [issue](https://github.com/o2team/wxapp-market/issues) 或 [PR](https://github.com/o2team/wxapp-market/compare)，为优化 [wxapp-market](https://github.com/o2team/wxapp-market) 贡献力量。
+如果你有好的意见或建议，欢迎给我们提 [Issue](https://github.com/o2team/wxapp-market/issues) 或 [PR](https://github.com/o2team/wxapp-market/compare)，为优化 [wxapp-market](https://github.com/o2team/wxapp-market) 贡献力量。
