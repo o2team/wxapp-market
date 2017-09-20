@@ -1,6 +1,6 @@
 ## 小程序营销组件
 
-小程序营销组件， Marketing components for WeChatApp。
+小程序营销组件， Marketing components for WeChatApp
 
 
 ## 支持营销玩法
