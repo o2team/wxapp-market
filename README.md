@@ -198,7 +198,9 @@ git clone git@github.com:o2team/wxapp-market.git
     canvasId: "canvasLock", //canvas画布id
     drawColor: "#3985ff"  //绘制颜色
   })
-```   
+```  
+
+文档详情，请[查阅](https://o2team.github.io/wxapp-market/index.html)
 
 ## 效果图展示
 
