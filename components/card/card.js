@@ -23,6 +23,9 @@
  *    }
  *  })
  */
+
+const Promise = require('./promise.min.js')
+
 class Card {
 
   /**
