@@ -2,10 +2,10 @@ import Card from "../../components/card/card.js"
 
 Page({
   data: {
-
   },
 
   onLoad () {
+    this.count = 0
     this.card = new Card(this,{
       data: [
         {inlineStyle: '', isBack: false, isMove: false, award: "一等奖"},
@@ -24,12 +24,12 @@ Page({
           content: `您点击了第${idx+1}个方块，中${award}`,
           showCancel: false,
           success: (res) => {
-            this.card.reset()
-            if (res.confirm) {
-              console.log('用户点击确定')
-            } else if (res.cancel) {
-              console.log('用户点击取消')
-            }
+            // this.card.reset()
+            // if (res.confirm) {
+            //   console.log('用户点击确定')
+            // } else if (res.cancel) {
+            //   console.log('用户点击取消')
+            // }
           }
         })            
       }
@@ -41,6 +41,11 @@ Page({
   },
 
   onStart () {
-    this.card.start()
+    this.count++
+    if(this.count != 0 ){
+      this.card.reset()
+    }else{
+      this.card.start()
+    }
   }
 })
