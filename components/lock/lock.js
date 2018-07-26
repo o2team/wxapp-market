@@ -43,8 +43,7 @@ class Lock {
     this.page.onTouchcancel = this.onTouchcancel.bind(this)
   }
 
-  init() {
-      this.setData()   
+  init() { 
       this.pswObj = {}
 
       this.lastPoint = []

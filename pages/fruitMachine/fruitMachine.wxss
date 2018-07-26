@@ -16,11 +16,3 @@ button{
   margin-top: 40rpx;
   width: 400rpx;
 }
-
-
-
-
-button{
-  margin-top: 40rpx;
-  width: 400rpx;
-}
