@@ -44,6 +44,7 @@ class Lock {
   }
 
   init() { 
+      this.setData()
       this.pswObj = {}
 
       this.lastPoint = []
