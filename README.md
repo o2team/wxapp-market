@@ -202,6 +202,10 @@ git clone git@github.com:o2team/wxapp-market.git
 
 文档详情，请[查阅](https://o2team.github.io/wxapp-market/index.html)
 
+## 件体验二维码
+
+![营销组件体验二维码](http://img.pfan123.com/qrcode.jpg)
+
 ## 效果图展示
 
 ![支持营销](http://img.pfan123.com/wx_market_0.gif?t=1112&imageView2/1/w/356/h/634)
