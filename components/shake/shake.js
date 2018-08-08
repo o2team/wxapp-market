@@ -1,7 +1,7 @@
 /**
  * Class Shake
  * @class
- * @classdesc 九宫格翻纸牌组件逻辑部分
+ * @classdesc 摇一摇组件逻辑部分
  * @author pfan
  *
  * @example
