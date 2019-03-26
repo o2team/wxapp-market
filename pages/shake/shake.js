@@ -27,6 +27,10 @@ Page({
         })
     },
 
+    onUnload () {
+        wx.stopAccelerometer()
+    },
+
     onReady () {
         console.log('onReady')
     }
